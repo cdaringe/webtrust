@@ -8,6 +8,6 @@
     "husky": "^0.14.3"
   },
   "scripts": {
-    "precommit": "latexmk index.tex"
+    "prepush": "pdflatex index.tex && git add index.pdf && git commit -m 'chore(pkg): render latest pdf' -n"
   }
 }

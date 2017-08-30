@@ -1,4 +1,5 @@
 \documentclass{paper}
+\usepackage{graphicx}
 
 \begin{document}
 
@@ -14,7 +15,7 @@ Trusting Web Media \\
 \section{Abstract}
 The creation of and spread of false information has led to
 a grand public scare, leaving citizens fearful of trusting
-reported media.  For example, when polarized claims are made by oppositional
+reported media \cite{manjoo2016}.  For example, when polarized claims are made by oppositional
 sources, there are few objective or subjective tools offered to consumers
 on how to reconcile the conflict.  Reconciling truth is essential to
 team building and problem solving, which we rely on at the local and national
@@ -37,10 +38,14 @@ communication.  Because the web is humanity's dominant media communication
 mechamism, we believe that a technology trust model is highly relavant
 to protect our core values.
 
+Access to good, clean information should be the default state when consuming web media.  Access to quality information should be just as accessible
+as clean water. We suggest that the above assertion is a fundamental human right
+in modern society.
+
 \section{Problem}
 
 False information is rampant <cite> and creates disagreement among parties who
-ultimately seek similar objectives <cite, iirc this-american-life had some good sources here>.
+ultimately seek similar objectives <cite, iirc this-american-life had some good sources here> \cite{peoplepress2016}.
 \begin{itemize}
   \item enumerate multiple false information campaigns and their successes
   \item enumerate popular myths that still hold as truths to consumers today
@@ -71,6 +76,14 @@ media is an ideal candidate.
   \item discuss centralized rating systems, independents, and why there will always be reason to cast doubt
 \end{itemize}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=400px]{img/latexworkshop.png}
+  \caption{Example figure environment}%
+  \label{figenv}
+  \end{figure}
+  See Figure~\ref{figenv}.
+
 \section{Solution - WebTrust}
 
 \paragraph{Overview}
@@ -81,7 +94,7 @@ media is an ideal candidate.
   data living on the blockchain.
   \item WebTrust uses the decentralized web to uniquely identify individual humans, individual pieces of media
   \item Humans tag media as (un)authentic.  These are generally people who witnessed the published media as well.
-  \item Media providing humans gain reputation score based on authenticty
+  \item Media creating humans gain a reputation score based on authenticty
 \end{itemize}
 
 \paragraph{HTML}
@@ -97,5 +110,21 @@ media is an ideal candidate.
 
 \paragraph{}
 \subparagraph{}
+
+\begin{thebibliography}{9}
+\bibitem{peoplepress2016}
+  People Press,
+  "In Presidential Contest, Voters Say ‘Basic Facts,’ Not Just Policies, Are in Dispute",
+  http://www.people-press.org/2016/10/14/in-presidential-contest-voters-say-basic-facts-not-just-policies-are-in-dispute,
+  2016.
+\bibitem{manjoo2016}
+  Farhad Manjoo,
+  "How the Internet Is Loosening Our Grip on the Truth",
+  New York Times,
+  https://www.nytimes.com/2016/11/03/technology/how-the-internet-is-loosening-our-grip-on-the-truth.html,
+  2016.
+
+
+\end{thebibliography}
 
 \end{document}
